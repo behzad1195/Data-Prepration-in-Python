@@ -36,6 +36,7 @@
  * The best practice to choose between different scaler techniques is to applied them to the training data set and find out which performs better.
  
 #### Save Model and Data Scaler and later Load and Apply them 
+<<<<<<< HEAD
  * Python allows us to save our scaling objects and later use them for the model or even new datasets.
   + The first step is to split our data and find the min and max for each feature
   + Then choose the scaling method that has the best performance on train data
@@ -48,3 +49,18 @@
     + `model=load(open('model.pk1', 'rb'))`
     + `scaler=load(open('scaler.pk1', 'rb'))`
  * For detailed process via case study look at 'Advanced Transforms' Notebook.
+=======
+    * Python allows us to save our scaling objects and later use them for the model or even new datasets.
+        + The first step is to split our data and find the min and max for each feature
+        + Then choose the scaling method that has the best performance on train data
+        + Then print the min and max of each feature  
+        + lastly we can use *pickle* framwork to save our model and scaling method by
+            + `from pickle import dump`
+            + `dump(model, open('model.pk1', 'wb'))`
+            + `dump(scaler, open('scaler.pk1', 'wb'))`
+        + we can later on load and apply them by 
+            + `model=load(open('model.pk1', 'rb'))`
+            + `scaler=load(open('scaler.pk1', 'rb'))`
+    * For detailed process via case study look at 'Advanced Transforms' Notebook.
+   
+>>>>>>> 9965aa8467160e052e40ca97279e4884621e3855
