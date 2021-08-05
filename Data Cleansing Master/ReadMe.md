@@ -51,6 +51,6 @@ In most cases the chance that you get a prepared data ready to feed in your mode
 ### 5. Advanced Transforms - > Advanced Transforms (Notes).md
 + 5.1 Transforming different data types, the column transformer, automatically transform target variable, save model and data scaler, load and apply saved scaler -> (Advanced Transforms.ipynb)
 
-### 6. Dimensionality Reduction -> Dimensionality Reduction.md
+### 6. Dimensionality Reduction -> Dimensionality Reduction (Notes).md
 + 6.1 Dimensionality Reduction methods: Linear Discriminant Analysis(LDA) and  Principal Component Analysis (PCA) -> (Dimensionality Reduction.ipynb)
     - For more info about the specifics of each techinque look at (Dimensionality Reduction (Notes).ipynb)
