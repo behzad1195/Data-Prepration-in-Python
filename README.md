@@ -7,4 +7,8 @@
   + 1. Intro data cleansing
   + 2. Data Cleansing Master
   + 3. Feature Engineering - Titanic Case Study
-* In each folder there is a file `df.iloc()`
+* In each folder there are Notes that provide a breif review of each method (e.g. what they do?, why/where we should use them?). Additional there is a Jupyternotebook for each method with codes and some comments for the sake of clarification.
+
+### Files
+* [Data Prepreation Workflow](https://github.com/behzad1195/Data-Prepration-in-Python/blob/master/ML%20Workflow.pdf) 
+
