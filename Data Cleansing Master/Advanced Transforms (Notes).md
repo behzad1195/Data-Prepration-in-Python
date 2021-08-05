@@ -1,9 +1,9 @@
 ### Transforming Different Data Types
-    * We need to transform our data before feeding it to the ML model. This is required to ensure that you exposed the best structure to your predictive modeling problem to the ML. Applying data transform like *scaling and encoding* categorical variables is staright forward when all the variables are in a same type. But it cannbe challenging when you have a dataset with a mix types. In this case you want to applied the data transfer selectively to some but not all of input features.
-    * Fortunately `from sklearn.compse import ColumnTransformer` allows us to selectively apply data transforms to different column in your datasets  
-    * As mentioned it is important to transform our data prior to modeling this include replacing all missing values, scaling numerical values and One-Hot-Encoding the categorical variables.   
-    * The sequence of different transform techniques can be used together using **Pipeline**. 
-    * It is very common to want to perform different data prepration techniques on different columns of your data. This may imply to first dividing your numerical and categorical data and then use these techniques on them seprately, prior to combining them back together in order to feed them to your model.
+* We need to transform our data before feeding it to the ML model. This is required to ensure that you exposed the best structure to your predictive modeling problem to the ML. Applying data transform like *scaling and encoding* categorical variables is staright forward when all the variables are in a same type. But it cannbe challenging when you have a dataset with a mix types. In this case you want to applied the data transfer selectively to some but not all of input features.
+* Fortunately `from sklearn.compse import ColumnTransformer` allows us to selectively apply data transforms to different column in your datasets  
+* As mentioned it is important to transform our data prior to modeling this include replacing all missing values, scaling numerical values and One-Hot-Encoding the categorical variables.   
+* The sequence of different transform techniques can be used together using **Pipeline**. 
+* It is very common to want to perform different data prepration techniques on different columns of your data. This may imply to first dividing your numerical and categorical data and then use these techniques on them seprately, prior to combining them back together in order to feed them to your model.
     
 #### The Column Transformers
     * The {ColumnTransformer()} allows us to selectively apply data prepration transforms. In order to do that we should specify a list of transforms. Each transformer has three elements tuple that define the name of transformer namely a transformer to apply *e.g. OneHotEncoder()and column indecies to aplly it to *e.g. 'season'*  and the type of that column *e.g. 'cat'* for categorical.  
