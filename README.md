@@ -7,4 +7,4 @@
   + 1. Intro data cleansing
   + 2. Data Cleansing Master
   + 3. Feature Engineering - Titanic Case Study
-* In each folder there is a file {df.iloc()}
+* In each folder there is a file `df.iloc()`
